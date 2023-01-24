@@ -1,0 +1,2 @@
+mongoimport --collection='cities' --file=cities.csv --type=csv --fields="code","city","state","country","lat","lng"
+mongoimport --collection='geo' --file=geo.csv --type=csv --fields="code","lat","lng"
